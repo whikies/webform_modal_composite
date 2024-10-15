@@ -1,0 +1,25 @@
+webform_modal_composite.loader:
+  path: '/webform-modal-composite/loader-webform'
+  defaults:
+    _controller: '\Drupal\webform_modal_composite\Controller\WebformModalController::loaderWebform'
+    _title: 'Render Webform'
+  requirements:
+    _permission: 'access content'
+webform_modal_composite.render:
+  path: '/webform-modal-composite/render-webform/{name}'
+  defaults:
+    _controller: '\Drupal\webform_modal_composite\Controller\WebformModalController::renderWebform'
+    _title: 'Render Webform'
+  methods:
+    - POST
+  requirements:
+    _permission: 'access content'
+webform_modal_composite.process:
+  path: '/webform-modal-composite/process-webform/{name}'
+  defaults:
+    _controller: '\Drupal\webform_modal_composite\Controller\WebformModalController::processWebform'
+    _title: 'Render Webform'
+  methods:
+    - POST
+  requirements:
+    _permission: 'access content'

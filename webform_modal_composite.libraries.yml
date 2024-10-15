@@ -1,0 +1,16 @@
+
+webform_modal_composite:
+  version: 1.0
+  js:
+    js/script.js: { weight: -1 }
+  css:
+    component:
+      css/style.css: { weight: -1 }
+
+webform_modal_composite_bootstrap:
+  version: 1.0
+  js:
+    js/bootstrap.min.js: { weight: -2 }
+  css:
+    component:
+      css/bootstrap.min.css: { weight: -2 }

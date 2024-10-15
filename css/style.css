@@ -1,0 +1,19 @@
+
+div.modal-field-composite-field-wrapper-inner {
+    display: inline-block;
+    position: relative;
+}
+
+div.modal-field-composite-field-wrapper-inner:before {
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.modal-field-composite-container tr .form-item,
+.modal-field-composite-container tr .form-text,
+#webform-modal-composite-dialog .modal-title {
+    margin: 0px;
+}
